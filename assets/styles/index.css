@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Tajawal&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.cabecera li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    align-items: center;
+}
+
+#li-izquierda ul{
+    padding-right: 4rem;
+    margin: 0;
+}
+
+#cabecera-img{
+    border:1px solid black;
+    height:4rem;
+    width:4rem;
+    margin-left:-2rem;
+    background-color:red;
+}
+
+ul{
+    padding: 0;
+}
+
+.cabecera{
+    border: solid 1px black;
+    display: flex;
+    justify-content: space-between;
+}
+
+body{
+    margin: 1rem;
+}
