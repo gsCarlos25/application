@@ -4,6 +4,8 @@
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
     font-family: 'Tajawal', sans-serif;
+    border-radius:2px;
+    box-shadow: none;
 }
 
 .cabecera li {
@@ -22,8 +24,8 @@
 
 #cabecera-img{
     border:1px solid black;
-    height:4rem;
-    width:4rem;
+    height:5rem;
+    width:5rem;
     margin-left:-2rem;
     background-color:red;
 }
@@ -36,6 +38,7 @@ ul{
     border: solid 1px black;
     display: flex;
     justify-content: space-between;
+    height: 5rem;
 }
 
 body{
