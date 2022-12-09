@@ -6,3 +6,5 @@ spl_autoload_register(function($clase){
         require $directorio_clase. '.php';
     }
 });
+
+?>
