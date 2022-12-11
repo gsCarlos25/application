@@ -35,11 +35,9 @@
     }
     
     
-    
-    
     if($existe==false){
         //No existe
-        $sql = "INSERT INTO usuarios VALUES(NULL, '$correo', '$pass', '$usuario', '$nombre', '$apellido',NULL)";
+        $sql = "INSERT INTO usuarios VALUES(NULL,'$correo', '$pass', '$usuario', '$nombre', '$apellido','$descripcion')";
 
         
         if($conn->query($sql) == TRUE){

@@ -1,6 +1,6 @@
 <?php
   $host_name = 'localhost';
-  $database = 'bdproi';
+  $database = 'application';
   $user_name = 'root';
   $password = '';
 

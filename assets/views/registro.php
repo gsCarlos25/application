@@ -142,15 +142,9 @@
                         url: '../funciones/registroUsuario.php',
                         type: 'post',
                         success: function(result){
-                            console.log(result)
-                            if(result.error != ""){
-                                $(".msg_error").show("slow");
-                                $(".msg_error").css("background-color","red");
-                                var li = $('<li/>').
-                                    addClass('li-error')
-                                    .text(result.error)
-                                    .appendTo(cList);
-                            }else if(result.ok){
+                            console.log(result);
+                            result = JSON.parse(result);
+                            if(result.ok){
                                 $(".msg_error").show("slow");
                                 $(".msg_error").css("background-color","green");
                                 var li = $('<li/>').
@@ -158,6 +152,15 @@
                                     .text("Usuario creado")
                                     .appendTo(cList);
                                 window.location.href = result.redirect;
+                            }
+                            else if(result.error != ""){
+                                
+                                $(".msg_error").show("slow");
+                                $(".msg_error").css("background-color","red");
+                                var li = $('<li/>').
+                                    addClass('li-error')
+                                    .text(result.error)
+                                    .appendTo(cList);
                             }
                         }
                     })

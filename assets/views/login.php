@@ -74,6 +74,7 @@
                         type: 'post',
                         success: function(result){
                             console.log(result);
+                            result = JSON.parse(result);
                             if(res.error != ""){
                                 $(".msg_error").show("slow");
                                 var li = $('<li/>').
