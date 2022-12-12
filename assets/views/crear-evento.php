@@ -9,7 +9,10 @@
     <link rel="stylesheet" href="../styles/form.css">
     <title>Crear Evento</title>
 </head>
-<body>
+    <?php
+    include_once('./cabecera.php');
+    ?>
+    
     <div class="form">
         <form action="" method="post" class="form">
             <select name="deporte" id="deporte">

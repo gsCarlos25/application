@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" crossorigin="anonymous"></script>
     <script src="assets/js/index.js"></script>
-    <script src="assets/js/jquery-3.6.1.min.js"></script>
     <link rel="stylesheet" href="assets/styles/cabecera.css" type="text/css">
     <link rel="stylesheet" href="assets/styles/evento.css" type="text/css">
     <link rel="stylesheet" href="assets/styles/index.css" type="text/css">
@@ -17,21 +17,9 @@
 
 </head>
 <body>
-    <header id="cabecera">
-        <h1 class="vista"></h1>
-        <div class="cabecera">
-            <li id="li-izquierda">
-                <ul><div id="cabecera-img"></div></ul>
-                <ul>Inicio</ul>
-                <ul>Buscar</a></ul>
-                <ul><a href="assets/views/crear-evento.php">Crear evento</ul>
-                <ul>Chat</ul>
-            </li>
-            <li>
-                <ul>Perfil</ul>
-            </li>
-        </div>
-    </header>
+    <?php
+    include_once('./assets/views/cabecera.php');
+    ?>
 
     <!-----------------Cabecera-------------------->
 
@@ -93,7 +81,9 @@
     </div>
 
     <?php
-        echo $_SESSION['id'];
+        if(!$_SESSION['id']){
+            header("Location: assets/views/login.php");
+        }
     ?>
 
 </body>

@@ -1,13 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Tajawal&display=swap');
-
-*{
-    box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Tajawal', sans-serif;
-    border-radius:2px;
-    box-shadow: none;
-}
-
 .cabecera li {
     display: flex;
     flex-direction: row;
@@ -39,8 +29,6 @@ ul{
     display: flex;
     justify-content: space-between;
     height: 5rem;
-}
-
-body{
-    margin: 1rem;
+    width: 94rem;
+    margin-top:0rem;
 }

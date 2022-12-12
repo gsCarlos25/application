@@ -75,19 +75,19 @@
                         success: function(result){
                             console.log(result);
                             result = JSON.parse(result);
-                            if(res.error != ""){
+                            if(result.error != ""){
                                 $(".msg_error").show("slow");
                                 var li = $('<li/>').
                                     addClass('li-error')
-                                    .text(res.error)
+                                    .text(result.error)
                                     .appendTo(cList);
-                            }else if(res.ok){
+                            }else if(result.ok){
                                 $(".msg_error").show("slow");
                                 var li = $('<li/>').
                                     addClass('li-error')
                                     .text("Iniciando sesión")
                                     .appendTo(cList);
-                                    window.location.href = res.redirect;
+                                    window.location.href = result.redirect;
                             }
                         }
                     })
