@@ -7,8 +7,9 @@
     <title>Inicio</title>
     <script src="assets/js/index.js"></script>
     <script src="assets/js/jquery-3.6.1.min.js"></script>
-    <link rel="stylesheet" href="assets/styles/cabecera.css" type="text/css"></link>
+    <link rel="stylesheet" href="assets/styles/cabecera.css" type="text/css">
     <link rel="stylesheet" href="assets/styles/evento.css" type="text/css">
+    <link rel="stylesheet" href="assets/styles/index.css" type="text/css">
 
     <?php
         session_start();
@@ -22,8 +23,8 @@
             <li id="li-izquierda">
                 <ul><div id="cabecera-img"></div></ul>
                 <ul>Inicio</ul>
-                <ul>Buscar</ul>
-                <ul>Crear evento</ul>
+                <ul>Buscar</a></ul>
+                <ul><a href="assets/views/crear-evento.php">Crear evento</ul>
                 <ul>Chat</ul>
             </li>
             <li>

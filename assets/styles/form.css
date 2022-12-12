@@ -9,7 +9,7 @@
 }
 
 
-.form form > :not(p,a){
+.form form > :not(p,a,.submit){
     margin: 0.5rem;
     width:13rem;
     height:2rem;
@@ -22,10 +22,13 @@ body{
     flex-direction: column;
 }
 
-#submit{
-    width:7rem;
+.submit{
+    margin-top: 0.5rem;;
     background-color:black;
     color:white;
+    width:9rem;
+    height:2rem;
+    cursor: pointer;
 }
 
 .msg_error{

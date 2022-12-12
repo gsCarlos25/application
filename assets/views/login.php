@@ -28,7 +28,7 @@
             <p class = "texto">Bienvenido a Proyecto Integrado</p>
             <input type="text" id="logUs" placeholder="Nombre de usuario...">
             <input type="password" id="logPass" placeholder="Contraseña...">
-            <button type="button" id="botLog">Iniciar sesión</button>
+            <button type="button" id="botLog" class="submit">Iniciar sesión</button>
             <a href="registro.php" >¿No tienes cuenta?Pulsa aqui para registrarte</a>
             <div class="msg_error" class="alert alert-danger" role="alert" style="display: none">
                 <ul class = "erroresForm">

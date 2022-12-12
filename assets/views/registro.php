@@ -31,7 +31,7 @@
             <input type="password" id="regPass" placeholder="Contraseña...">
             <input type="password" id="regRepPass" placeholder="Repetir la contraseña...">
             <textarea id="regDesc" placeholder="Preséntate tu mismo..."></textarea>
-            <button type="button" id="botReg">Crear cuenta</button>
+            <button type="button" id="botReg" class="submit">Crear cuenta</button>
             <a href="login.php">¿Ya tienes cuenta?Pulsa aqui para iniciar sesion</a>
             <div class="msg_error" class="alert alert-danger" role="alert" style="display: none">
                 <ul class = "erroresForm">
