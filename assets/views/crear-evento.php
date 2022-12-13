@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../styles/index.css" type="text/css">
-    <link rel="stylesheet" href="../styles/form.css">
-    <link rel="stylesheet" href="../styles/cabecera.css" type="text/css">
+        <link rel="stylesheet" href="../styles/index.css" type="text/css">
+        <link rel="stylesheet" href="../styles/form.css">
+        <link rel="stylesheet" href="../styles/cabecera.css" type="text/css">
     <title>Crear Evento</title>
 </head>
     <?php

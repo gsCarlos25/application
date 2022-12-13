@@ -1,4 +1,4 @@
-.seccion-perfil .perfil-body,
+/* .seccion-perfil .perfil-body,
 .seccion-perfil {
     display: flex;
     flex-wrap: wrap;
@@ -103,4 +103,40 @@
     margin-right: 1rem;
     font-size: 1.2rem;
     vertical-align: middle;
+} */
+
+.perfil{
+    display: flex;
+    flex-direction: row;
+    width:97vw;
+    justify-content: space-between;
+}
+
+
+.cerrarSesion,.borrarCuenta {
+    background-color: #ffcc00; /* Green */
+    border: none;
+    color: white;
+    padding: 1vh 1.5vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+
+.borrarCuenta{
+    flex-direction: row;
+    background-color:rgb(255, 50, 50);
+}
+
+.contenido,.accion{
+    border: solid 1px black;
+}
+
+button{
+    margin-left:1rem;
+}
+
+h1{
+    margin:0px;
 }

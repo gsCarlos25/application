@@ -8,7 +8,7 @@
                 <ul><a href='<?=base_url?>/assets/views/chat.php'>Chat</a></ul>
             </li>
             <li>
-                <ul>Perfil</ul>
+                <ul><a href='<?=base_url?>/assets/views/perfil.php'>Perfil</a></ul>
             </li>
         </div>
 </header>
