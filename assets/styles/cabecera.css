@@ -29,6 +29,7 @@ ul{
     display: flex;
     justify-content: space-between;
     height: 5rem;
-    width: 94rem;
+    width: 97vw;
     margin-top:0rem;
+    margin-bottom: 2rem;
 }

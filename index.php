@@ -16,9 +16,9 @@
     ?>
 
 </head>
-<body>
     <?php
-    include_once('./assets/views/cabecera.php');
+    require_once('./config/parameters.php');
+    require_once('./assets/views/cabecera.php');
     ?>
 
     <!-----------------Cabecera-------------------->
@@ -82,7 +82,7 @@
 
     <?php
         if(!$_SESSION['id']){
-            header("Location: assets/views/login.php");
+            header("Location: ".base_url."assets/views/login.php");
         }
     ?>
 

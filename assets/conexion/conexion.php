@@ -18,4 +18,8 @@
   if (mysqli_connect_errno()) {
     die('<p>Error al conectar con servidor MySQL: '. $conn->connect_error .'</p>');
   }
+
+  function formatearFechaChat($fecha){
+    return date('g:i a', strtotime($fecha));
+  }
 ?>
